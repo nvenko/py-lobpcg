@@ -1,0 +1,8 @@
+Python implementation of LOBPCG iterations referred to as Basic (Knyazev, 2001), BLOPEX (Knyazev et al., 2007), Ortho (Hetmaniuk & Lehoucq, 2006) and Skip_ortho (Duersch et al., 2018). In particular, our implementation our of Skip_ortho is significantly more stable than SciPy's LOBPCG and allows for preconditioning of standard and generalized problems, as well as a control on whether the products with A and B (if they apply), are done either implicity, or explicitly.
+
+References:
+- Duersch, J. A., Shao, M., Yang, C., & Gu, M. (2018). A robust and efficient implementation of LOBPCG. SIAM Journal on Scientific Computing, 40(5), C655-C676.
+- Hetmaniuk, U., & Lehoucq, R. (2006). Basis selection in LOBPCG. Journal of Computational Physics, 218(1), 324-332.
+- Knyazev, A. V. (2001). Toward the optimal preconditioned eigensolver: Locally optimal block preconditioned conjugate gradient method. SIAM journal on scientific computing, 23(2), 517-541.
+- Knyazev, A. V., Argentati, M. E., Lashuk, I., & Ovtchinnikov, E. E. (2007). Block locally optimal preconditioned eigenvalue Xolvers (BLOPEX) in Hypre and PETSc. SIAM Journal on Scientific Computing, 29(5), 2224-2239.
+- Stathopoulos, A., & Wu, K. (2002). A block orthogonalization procedure with constant synchronization requirements. SIAM Journal on Scientific Computing, 23(6), 2165-2182.
